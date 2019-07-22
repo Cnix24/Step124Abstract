@@ -12,7 +12,9 @@ namespace Step124AbstractClasses
         {
             Employee employee = new Employee { firstName = "Sample", lastName = "Student" };
             employee.SayName();
+            employee.Quit();
             Console.ReadLine();
         }
+        
     }
 }
